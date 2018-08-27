@@ -1,4 +1,4 @@
-package mws
+package main
 
 type Marketplace struct {
 	Name     string
@@ -193,11 +193,11 @@ func GetMarketplace(key string) Marketplace {
 }
 
 func GetMarketplaceEndpoint(key string) string {
-	marketplace := Get(key)
+	marketplace := GetMarketplace(key)
 	return marketplace.Endpoint
 }
 
 func GetMarketplaceID(key string) string {
-	marketplace := Get(key)
+	marketplace := GetMarketplace(key)
 	return marketplace.ID
 }

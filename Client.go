@@ -1,4 +1,4 @@
-package mws
+package main
 
 import (
 	"crypto/hmac"
