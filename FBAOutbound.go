@@ -1,6 +1,6 @@
 package main
 
-type FBAOutbound struct {
+type FBAOutboundApi struct {
 	Client
 }
 
@@ -15,7 +15,7 @@ type FBAOutbound struct {
  * @see CancelFulfillmentOrderRequest
  * @return CancelFulfillmentOrderResponse
  */
-func (api FBAOutbound) CancelFulfillmentOrder() {
+func (api FBAOutboundApi) CancelFulfillmentOrder() {
 }
 
 /**
@@ -75,7 +75,7 @@ func (api FBAOutbound) CancelFulfillmentOrder() {
  * @see CreateFulfillmentOrderRequest
  * @return CreateFulfillmentOrderResponse
  */
-func (api FBAOutbound) CreateFulfillmentOrder() {
+func (api FBAOutboundApi) CreateFulfillmentOrder() {
 }
 
 /**
@@ -89,7 +89,7 @@ func (api FBAOutbound) CreateFulfillmentOrder() {
  * @see GetFulfillmentOrderRequest
  * @return GetFulfillmentOrderResponse
  */
-func (api FBAOutbound) GetFulfillmentOrder() {
+func (api FBAOutboundApi) GetFulfillmentOrder() {
 }
 
 /**
@@ -108,7 +108,7 @@ func (api FBAOutbound) GetFulfillmentOrder() {
  * @see GetFulfillmentPreviewRequest
  * @return GetFulfillmentPreviewResponse
  */
-func (api FBAOutbound) GetFulfillmentPreview() {
+func (api FBAOutboundApi) GetFulfillmentPreview() {
 }
 
 /**
@@ -118,7 +118,7 @@ func (api FBAOutbound) GetFulfillmentPreview() {
  * @see GetPackageTrackingDetailsRequest
  * @return GetPackageTrackingDetailsResponse
  */
-func (api FBAOutbound) GetPackageTrackingDetails() {
+func (api FBAOutboundApi) GetPackageTrackingDetails() {
 }
 
 /**
@@ -132,7 +132,7 @@ func (api FBAOutbound) GetPackageTrackingDetails() {
  * @see GetServiceStatusRequest
  * @return GetServiceStatusResponse
  */
-func (api FBAOutbound) GetServiceStatus() {
+func (api FBAOutboundApi) GetServiceStatus() {
 }
 
 /**
@@ -153,7 +153,7 @@ func (api FBAOutbound) GetServiceStatus() {
  * @see ListAllFulfillmentOrdersRequest
  * @return ListAllFulfillmentOrdersResponse
  */
-func (api FBAOutbound) ListAllFulfillmentOrders() {
+func (api FBAOutboundApi) ListAllFulfillmentOrders() {
 }
 
 /**
@@ -168,7 +168,7 @@ func (api FBAOutbound) ListAllFulfillmentOrders() {
  * @see ListAllFulfillmentOrdersByNextTokenRequest
  * @return ListAllFulfillmentOrdersByNextTokenResponse
  */
-func (api FBAOutbound) ListAllFulfillmentOrdersByNextToken() {
+func (api FBAOutboundApi) ListAllFulfillmentOrdersByNextToken() {
 }
 
 /**
@@ -222,5 +222,5 @@ func (api FBAOutbound) ListAllFulfillmentOrdersByNextToken() {
  * @see UpdateFulfillmentOrderRequest
  * @return UpdateFulfillmentOrderResponse
  */
-func (api FBAOutbound) UpdateFulfillmentOrder() {
+func (api FBAOutboundApi) UpdateFulfillmentOrder() {
 }

@@ -24,6 +24,7 @@ type Account struct {
 type Client struct {
 	Account
 	Host    string
+	//Logger
 }
 
 type Request map[string]interface{}
@@ -34,6 +35,58 @@ func NewClient(account Account) *Client {
 	return &Client{Account: account, Host: host}
 }
 
+func (c Client) GetFBAInboundApi() FBAInboundApi {
+	return FBAInboundApi{Client: c}
+}
+
+func (c Client) GetFBAInventoryApi() FBAInventoryApi {
+	return FBAInventoryApi{Client: c}
+}
+
+func (c Client) GetFBAOutboundApi() FBAOutboundApi {
+	return FBAOutboundApi{Client: c}
+}
+
+func (c Client) GetFeedApi() FeedApi {
+	return FeedApi{Client: c}
+}
+
+func (c Client) GetFinanceApi() FinanceApi {
+	return FinanceApi{Client: c}
+}
+
+func (c Client) GetMerchantFulfillmentApi() MerchantFulfillmentApi {
+	return MerchantFulfillmentApi{Client: c}
+}
+
+func (c Client) GetOrderApi() OrderApi {
+	return OrderApi{Client: c}
+}
+
+func (c Client) GetProductApi() ProductApi {
+	return ProductApi{Client: c}
+}
+
+func (c Client) GetRecommendationApi() RecommendationApi {
+	return RecommendationApi{Client: c}
+}
+
+func (c Client) GetReportApi() ReportApi {
+	return ReportApi{Client: c}
+}
+
+func (c Client) GetSellerApi() SellerApi {
+	return SellerApi{Client: c}
+}
+
+func (c Client) GetSubscriptionApi() SubscriptionApi {
+	return SubscriptionApi{Client: c}
+}
+
+func (c Client) SetLogger() {
+}
+
+// SendRequest
 func (c Client) genSignAndFetch(Action string, ActionPath string, Parameters map[string]string) (string, error) {
 	genUrl, err := c.GenerateAmazonUrl(Action, ActionPath, Parameters)
 	if err != nil {

@@ -1,10 +1,10 @@
 package main
 
-type Seller struct {
+type SellerApi struct {
 	Client
 }
 
-func (api Seller) GetServiceStatus() {
+func (api SellerApi) GetServiceStatus() {
 }
 
 /**
@@ -16,7 +16,7 @@ func (api Seller) GetServiceStatus() {
  * @see ListMarketplaceParticipationsRequest
  * @return ListMarketplaceParticipationsResponse
  */
-func (api Seller) ListMarketplaceParticipations() {
+func (api SellerApi) ListMarketplaceParticipations() {
 }
 
 /**
@@ -29,5 +29,5 @@ func (api Seller) ListMarketplaceParticipations() {
  * @see ListMarketplaceParticipationsByNextTokenRequest
  * @return ListMarketplaceParticipationsByNextTokenResponse
  */
-func (api Seller) ListMarketplaceParticipationsByNextToken() {
+func (api SellerApi) ListMarketplaceParticipationsByNextToken() {
 }

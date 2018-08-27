@@ -1,6 +1,6 @@
 package main
 
-type FBAInventory struct {
+type FBAInventoryApi struct {
 	Client
 }
 
@@ -14,7 +14,7 @@ type FBAInventory struct {
  * @see GetServiceStatusRequest
  * @return GetServiceStatusResponse
  */
-func (api FBAInventory) GetServiceStatus() {
+func (api FBAInventoryApi) GetServiceStatus() {
 }
 
 /**
@@ -54,7 +54,7 @@ func (api FBAInventory) GetServiceStatus() {
  * @see ListInventorySupplyRequest
  * @return ListInventorySupplyResponse
  */
-func (api FBAInventory) ListInventorySupply() {
+func (api FBAInventoryApi) ListInventorySupply() {
 }
 
 /**
@@ -69,5 +69,5 @@ func (api FBAInventory) ListInventorySupply() {
  * @see ListInventorySupplyByNextTokenRequest
  * @return ListInventorySupplyByNextTokenResponse
  */
-func (api FBAInventory) ListInventorySupplyByNextToken() {
+func (api FBAInventoryApi) ListInventorySupplyByNextToken() {
 }

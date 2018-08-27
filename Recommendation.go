@@ -1,6 +1,6 @@
 package main
 
-type Recommendation struct {
+type RecommendationApi struct {
 	Client
 }
 
@@ -15,7 +15,7 @@ type Recommendation struct {
  * @see GetLastUpdatedTimeForRecommendationsRequest
  * @return GetLastUpdatedTimeForRecommendationsResponse
  */
-func (api Recommendation) GetLastUpdatedTimeForRecommendations() {
+func (api RecommendationApi) GetLastUpdatedTimeForRecommendations() {
 }
 
 /**
@@ -26,7 +26,7 @@ func (api Recommendation) GetLastUpdatedTimeForRecommendations() {
  * @see ListRecommendationsRequest
  * @return ListRecommendationsResponse
  */
-func (api Recommendation) ListRecommendations() {
+func (api RecommendationApi) ListRecommendations() {
 }
 
 /**
@@ -37,7 +37,7 @@ func (api Recommendation) ListRecommendations() {
  * @see ListRecommendationsByNextTokenRequest
  * @return ListRecommendationsByNextTokenResponse
  */
-func (api Recommendation) ListRecommendationsByNextToken() {
+func (api RecommendationApi) ListRecommendationsByNextToken() {
 }
 
 /**
@@ -46,5 +46,5 @@ func (api Recommendation) ListRecommendationsByNextToken() {
  * @see GetServiceStatusRequest
  * @return GetServiceStatusResponse
  */
-func (api Recommendation) GetServiceStatus() {
+func (api RecommendationApi) GetServiceStatus() {
 }

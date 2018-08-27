@@ -1,6 +1,6 @@
 package main
 
-type MerchantFulfillment struct {
+type MerchantFulfillmentApi struct {
 	Client
 }
 
@@ -13,7 +13,7 @@ type MerchantFulfillment struct {
  * @see CancelShipmentRequest
  * @return CancelShipmentResponse
  */
-func (api MerchantFulfillment) CancelShipment() {
+func (api MerchantFulfillmentApi) CancelShipment() {
 }
 
 /**
@@ -25,7 +25,7 @@ func (api MerchantFulfillment) CancelShipment() {
  * @see CreateShipmentRequest
  * @return CreateShipmentResponse
  */
-func (api MerchantFulfillment) CreateShipment() {
+func (api MerchantFulfillmentApi) CreateShipment() {
 }
 
 /**
@@ -39,7 +39,7 @@ func (api MerchantFulfillment) CreateShipment() {
  * @see GetEligibleShippingServicesRequest
  * @return GetEligibleShippingServicesResponse
  */
-func (api MerchantFulfillment) GetEligibleShippingServices() {
+func (api MerchantFulfillmentApi) GetEligibleShippingServices() {
 }
 
 /**
@@ -50,7 +50,7 @@ func (api MerchantFulfillment) GetEligibleShippingServices() {
  * @see GetShipmentRequest
  * @return GetShipmentResponse
  */
-func (api MerchantFulfillment) GetShipment() {
+func (api MerchantFulfillmentApi) GetShipment() {
 }
 
 /**
@@ -59,5 +59,5 @@ func (api MerchantFulfillment) GetShipment() {
  * @see GetServiceStatusRequest
  * @return GetServiceStatusResponse
  */
-func (api MerchantFulfillment) GetServiceStatus() {
+func (api MerchantFulfillmentApi) GetServiceStatus() {
 }

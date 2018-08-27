@@ -1,6 +1,6 @@
 package main
 
-type Subscription struct {
+type SubscriptionApi struct {
 	Client
 }
 
@@ -12,7 +12,7 @@ type Subscription struct {
  * @see CreateSubscriptionInput
  * @return CreateSubscriptionResponse
  */
-func (api Subscription) CreateSubscription() {
+func (api SubscriptionApi) CreateSubscription() {
 }
 
 /**
@@ -23,7 +23,7 @@ func (api Subscription) CreateSubscription() {
  * @see DeleteSubscriptionInput
  * @return DeleteSubscriptionResponse
  */
-func (api Subscription) DeleteSubscription() {
+func (api SubscriptionApi) DeleteSubscription() {
 }
 
 /**
@@ -34,7 +34,7 @@ func (api Subscription) DeleteSubscription() {
  * @see DeregisterDestinationInput
  * @return DeregisterDestinationResponse
  */
-func (api Subscription) DeregisterDestination() {
+func (api SubscriptionApi) DeregisterDestination() {
 }
 
 /**
@@ -45,7 +45,7 @@ func (api Subscription) DeregisterDestination() {
  * @see GetSubscriptionInput
  * @return GetSubscriptionResponse
  */
-func (api Subscription) GetSubscription() {
+func (api SubscriptionApi) GetSubscription() {
 }
 
 /**
@@ -56,7 +56,7 @@ func (api Subscription) GetSubscription() {
  * @see ListRegisteredDestinationsInput
  * @return ListRegisteredDestinationsResponse
  */
-func (api Subscription) ListRegisteredDestinations() {
+func (api SubscriptionApi) ListRegisteredDestinations() {
 }
 
 /**
@@ -67,7 +67,7 @@ func (api Subscription) ListRegisteredDestinations() {
  * @see ListSubscriptionsInput
  * @return ListSubscriptionsResponse
  */
-func (api Subscription) ListSubscriptions() {
+func (api SubscriptionApi) ListSubscriptions() {
 }
 
 /**
@@ -78,7 +78,7 @@ func (api Subscription) ListSubscriptions() {
  * @see RegisterDestinationInput
  * @return RegisterDestinationResponse
  */
-func (api Subscription) RegisterDestination() {
+func (api SubscriptionApi) RegisterDestination() {
 }
 
 /**
@@ -89,7 +89,7 @@ func (api Subscription) RegisterDestination() {
  * @see SendTestNotificationToDestinationInput
  * @return SendTestNotificationToDestinationResponse
  */
-func (api Subscription) SendTestNotificationToDestination() {
+func (api SubscriptionApi) SendTestNotificationToDestination() {
 }
 
 /**
@@ -100,7 +100,7 @@ func (api Subscription) SendTestNotificationToDestination() {
  * @see UpdateSubscriptionInput
  * @return UpdateSubscriptionResponse
  */
-func (api Subscription) UpdateSubscription() {
+func (api SubscriptionApi) UpdateSubscription() {
 }
 
 /**
@@ -109,5 +109,5 @@ func (api Subscription) UpdateSubscription() {
  * @see GetServiceStatusRequest
  * @return GetServiceStatusResponse
  */
-func (api Subscription) GetServiceStatus() {
+func (api SubscriptionApi) GetServiceStatus() {
 }

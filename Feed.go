@@ -1,6 +1,6 @@
 package main
 
-type Feed struct {
+type FeedApi struct {
 	Client
 }
 
@@ -16,7 +16,7 @@ type Feed struct {
  * @see SubmitFeedRequest
  * @return SubmitFeedResponse
  */
-func (api Feed) SubmitFeed() {
+func (api FeedApi) SubmitFeed() {
 }
 
 /**
@@ -27,7 +27,7 @@ func (api Feed) SubmitFeed() {
  * @see GetFeedSubmissionListByNextTokenRequest
  * @return GetFeedSubmissionListByNextTokenResponse
  */
-func (api Feed) GetFeedSubmissionListByNextToken() {
+func (api FeedApi) GetFeedSubmissionListByNextToken() {
 }
 
 /**
@@ -39,7 +39,7 @@ func (api Feed) GetFeedSubmissionListByNextToken() {
  * @see CancelFeedSubmissionsRequest
  * @return CancelFeedSubmissionsResponse
  */
-func (api Feed) CancelFeedSubmissions() {
+func (api FeedApi) CancelFeedSubmissions() {
 }
 
 /**
@@ -50,7 +50,7 @@ func (api Feed) CancelFeedSubmissions() {
  * @see GetFeedSubmissionCountRequest
  * @return GetFeedSubmissionCountResponse
  */
-func (api Feed) GetFeedSubmissionCount() {
+func (api FeedApi) GetFeedSubmissionCount() {
 }
 
 /**
@@ -61,7 +61,7 @@ func (api Feed) GetFeedSubmissionCount() {
  * @see GetFeedSubmissionResultRequest
  * @return GetFeedSubmissionResultResponse
  */
-func (api Feed) GetFeedSubmissionResult() {
+func (api FeedApi) GetFeedSubmissionResult() {
 }
 
 /**
@@ -72,5 +72,5 @@ func (api Feed) GetFeedSubmissionResult() {
  * @see GetFeedSubmissionListRequest
  * @return GetFeedSubmissionListResponse
  */
-func (api Feed) GetFeedSubmissionList() {
+func (api FeedApi) GetFeedSubmissionList() {
 }

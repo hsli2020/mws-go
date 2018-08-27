@@ -1,6 +1,6 @@
 package main
 
-type Product struct {
+type ProductApi struct {
 	Client
 }
 
@@ -13,7 +13,7 @@ type Product struct {
  * @see GetCompetitivePricingForASINRequest
  * @return GetCompetitivePricingForASINResponse
  */
-func (api Product) GetCompetitivePricingForASIN() {
+func (api ProductApi) GetCompetitivePricingForASIN() {
 }
 
 /**
@@ -25,7 +25,7 @@ func (api Product) GetCompetitivePricingForASIN() {
  * @see GetCompetitivePricingForSKURequest
  * @return GetCompetitivePricingForSKUResponse
  */
-func (api Product) GetCompetitivePricingForSKU() {
+func (api ProductApi) GetCompetitivePricingForSKU() {
 }
 
 /**
@@ -37,7 +37,7 @@ func (api Product) GetCompetitivePricingForSKU() {
  * @see GetLowestOfferListingsForASINRequest
  * @return GetLowestOfferListingsForASINResponse
  */
-func (api Product) GetLowestOfferListingsForASIN() {
+func (api ProductApi) GetLowestOfferListingsForASIN() {
 }
 
 /**
@@ -49,7 +49,7 @@ func (api Product) GetLowestOfferListingsForASIN() {
  * @see GetLowestOfferListingsForSKURequest
  * @return GetLowestOfferListingsForSKUResponse
  */
-func (api Product) GetLowestOfferListingsForSKU() {
+func (api ProductApi) GetLowestOfferListingsForSKU() {
 }
 
 /**
@@ -61,7 +61,7 @@ func (api Product) GetLowestOfferListingsForSKU() {
  * @see GetLowestPricedOffersForASINRequest
  * @return GetLowestPricedOffersForASINResponse
  */
-func (api Product) GetLowestPricedOffersForASIN() {
+func (api ProductApi) GetLowestPricedOffersForASIN() {
 }
 
 /**
@@ -73,7 +73,7 @@ func (api Product) GetLowestPricedOffersForASIN() {
  * @see GetLowestPricedOffersForSKURequest
  * @return GetLowestPricedOffersForSKUResponse
  */
-func (api Product) GetLowestPricedOffersForSKU() {
+func (api ProductApi) GetLowestPricedOffersForSKU() {
 }
 
 /**
@@ -85,7 +85,7 @@ func (api Product) GetLowestPricedOffersForSKU() {
  * @see GetMatchingProductRequest
  * @return GetMatchingProductResponse
  */
-func (api Product) GetMatchingProduct() {
+func (api ProductApi) GetMatchingProduct() {
 }
 
 /**
@@ -97,7 +97,7 @@ func (api Product) GetMatchingProduct() {
  * @see GetMatchingProductForIdRequest
  * @return GetMatchingProductForIdResponse
  */
-func (api Product) GetMatchingProductForId() {
+func (api ProductApi) GetMatchingProductForId() {
 }
 
 /**
@@ -109,7 +109,7 @@ func (api Product) GetMatchingProductForId() {
  * @see GetMyFeesEstimateRequest
  * @return GetMyFeesEstimateResponse
  */
-func (api Product) GetMyFeesEstimate() {
+func (api ProductApi) GetMyFeesEstimate() {
 }
 
 /**
@@ -118,7 +118,7 @@ func (api Product) GetMyFeesEstimate() {
  * @see GetMyPriceForASINRequest
  * @return GetMyPriceForASINResponse
  */
-func (api Product) GetMyPriceForASIN() {
+func (api ProductApi) GetMyPriceForASIN() {
 }
 
 /**
@@ -127,7 +127,7 @@ func (api Product) GetMyPriceForASIN() {
  * @see GetMyPriceForSKURequest
  * @return GetMyPriceForSKUResponse
  */
-func (api Product) GetMyPriceForSKU() {
+func (api ProductApi) GetMyPriceForSKU() {
 }
 
 /**
@@ -139,7 +139,7 @@ func (api Product) GetMyPriceForSKU() {
  * @see GetProductCategoriesForASINRequest
  * @return GetProductCategoriesForASINResponse
  */
-func (api Product) GetProductCategoriesForASIN() {
+func (api ProductApi) GetProductCategoriesForASIN() {
 }
 
 /**
@@ -151,7 +151,7 @@ func (api Product) GetProductCategoriesForASIN() {
  * @see GetProductCategoriesForSKURequest
  * @return GetProductCategoriesForSKUResponse
  */
-func (api Product) GetProductCategoriesForSKU() {
+func (api ProductApi) GetProductCategoriesForSKU() {
 }
 
 /**
@@ -165,7 +165,7 @@ func (api Product) GetProductCategoriesForSKU() {
  * @see GetServiceStatusRequest
  * @return GetServiceStatusResponse
  */
-func (api Product) GetServiceStatus() {
+func (api ProductApi) GetServiceStatus() {
 }
 
 /**
@@ -176,5 +176,5 @@ func (api Product) GetServiceStatus() {
  * @see ListMatchingProductsRequest
  * @return ListMatchingProductsResponse
  */
-func (api Product) ListMatchingProducts() {
+func (api ProductApi) ListMatchingProducts() {
 }

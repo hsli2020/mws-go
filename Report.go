@@ -1,6 +1,6 @@
 package main
 
-type Report struct {
+type ReportApi struct {
 	Client
 }
 
@@ -16,7 +16,7 @@ type Report struct {
  *
  * @throws ReportsException
  */
-func (api Report) GetReport() {
+func (api ReportApi) GetReport() {
 }
 
 /**
@@ -27,7 +27,7 @@ func (api Report) GetReport() {
  * @see GetReportScheduleCountRequest
  * @return GetReportScheduleCountResponse
  */
-func (api Report) GetReportScheduleCount() {
+func (api ReportApi) GetReportScheduleCount() {
 }
 
 /**
@@ -38,7 +38,7 @@ func (api Report) GetReportScheduleCount() {
  * @see GetReportRequestListByNextTokenRequest
  * @return GetReportRequestListByNextTokenResponse
  */
-func (api Report) GetReportRequestListByNextToken() {
+func (api ReportApi) GetReportRequestListByNextToken() {
 }
 
 /**
@@ -49,7 +49,7 @@ func (api Report) GetReportRequestListByNextToken() {
  * @see UpdateReportAcknowledgementsRequest
  * @return UpdateReportAcknowledgementsResponse
  */
-func (api Report) UpdateReportAcknowledgements() {
+func (api ReportApi) UpdateReportAcknowledgements() {
 }
 
 /**
@@ -62,7 +62,7 @@ func (api Report) UpdateReportAcknowledgements() {
  * @see GetReportCountRequest
  * @return GetReportCountResponse
  */
-func (api Report) GetReportCount() {
+func (api ReportApi) GetReportCount() {
 }
 
 /**
@@ -73,7 +73,7 @@ func (api Report) GetReportCount() {
  * @see RequestReportRequest
  * @return RequestReportResponse
  */
-func (api Report) RequestReport() {
+func (api ReportApi) RequestReport() {
 }
 
 /**
@@ -85,7 +85,7 @@ func (api Report) RequestReport() {
  * @see CancelReportRequestsRequest
  * @return CancelReportRequestsResponse
  */
-func (api Report) CancelReportRequests() {
+func (api ReportApi) CancelReportRequests() {
 }
 
 /**
@@ -97,7 +97,7 @@ func (api Report) CancelReportRequests() {
  * @see GetReportListRequest
  * @return GetReportListResponse
  */
-func (api Report) GetReportList() {
+func (api ReportApi) GetReportList() {
 }
 
 /**
@@ -108,7 +108,7 @@ func (api Report) GetReportList() {
  * @see GetReportRequestListRequest
  * @return GetReportRequestListResponse
  */
-func (api Report) GetReportRequestList() {
+func (api ReportApi) GetReportRequestList() {
 }
 
 /**
@@ -119,7 +119,7 @@ func (api Report) GetReportRequestList() {
  * @see GetReportScheduleListByNextTokenRequest
  * @return GetReportScheduleListByNextTokenResponse
  */
-func (api Report) GetReportScheduleListByNextToken() {
+func (api ReportApi) GetReportScheduleListByNextToken() {
 }
 
 /**
@@ -130,7 +130,7 @@ func (api Report) GetReportScheduleListByNextToken() {
  * @see GetReportListByNextTokenRequest
  * @return GetReportListByNextTokenResponse
  */
-func (api Report) GetReportListByNextToken() {
+func (api ReportApi) GetReportListByNextToken() {
 }
 
 /**
@@ -142,7 +142,7 @@ func (api Report) GetReportListByNextToken() {
  * @see ManageReportScheduleRequest
  * @return ManageReportScheduleResponse
  */
-func (api Report) ManageReportSchedule() {
+func (api ReportApi) ManageReportSchedule() {
 }
 
 /**
@@ -154,7 +154,7 @@ func (api Report) ManageReportSchedule() {
  * @see GetReportRequestCountRequest
  * @return GetReportRequestCountResponse
  */
-func (api Report) GetReportRequestCount() {
+func (api ReportApi) GetReportRequestCount() {
 }
 
 /**
@@ -165,5 +165,5 @@ func (api Report) GetReportRequestCount() {
  * @see GetReportScheduleListRequest
  * @return GetReportScheduleListResponse
  */
-func (api Report) GetReportScheduleList() {
+func (api ReportApi) GetReportScheduleList() {
 }

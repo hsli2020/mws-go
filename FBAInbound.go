@@ -1,6 +1,6 @@
 package main
 
-type FBAInbound struct {
+type FBAInboundApi struct {
 	Client
 }
 
@@ -20,7 +20,7 @@ type FBAInbound struct {
  * @see ConfirmPreorderRequest
  * @return ConfirmPreorderResponse
  */
-func (api FBAInbound) ConfirmPreorder() {
+func (api FBAInboundApi) ConfirmPreorder() {
 }
 
 /**
@@ -33,7 +33,7 @@ func (api FBAInbound) ConfirmPreorder() {
  * @see ConfirmTransportInputRequest
  * @return ConfirmTransportRequestResponse
  */
-func (api FBAInbound) ConfirmTransportRequest() {
+func (api FBAInboundApi) ConfirmTransportRequest() {
 }
 
 /**
@@ -48,7 +48,7 @@ func (api FBAInbound) ConfirmTransportRequest() {
  * @see CreateInboundShipmentRequest
  * @return CreateInboundShipmentResponse
  */
-func (api FBAInbound) CreateInboundShipment() {
+func (api FBAInboundApi) CreateInboundShipment() {
 }
 
 /**
@@ -63,7 +63,7 @@ func (api FBAInbound) CreateInboundShipment() {
  * @see CreateInboundShipmentPlanRequest
  * @return CreateInboundShipmentPlanResponse
  */
-func (api FBAInbound) CreateInboundShipmentPlan() {
+func (api FBAInboundApi) CreateInboundShipmentPlan() {
 }
 
 /**
@@ -76,7 +76,7 @@ func (api FBAInbound) CreateInboundShipmentPlan() {
  * @see EstimateTransportInputRequest
  * @return EstimateTransportRequestResponse
  */
-func (api FBAInbound) EstimateTransportRequest() {
+func (api FBAInboundApi) EstimateTransportRequest() {
 }
 
 /**
@@ -89,7 +89,7 @@ func (api FBAInbound) EstimateTransportRequest() {
  * @see GetBillOfLadingRequest
  * @return GetBillOfLadingResponse
  */
-func (api FBAInbound) GetBillOfLading() {
+func (api FBAInboundApi) GetBillOfLading() {
 }
 
 /**
@@ -114,7 +114,7 @@ func (api FBAInbound) GetBillOfLading() {
  * @see GetPackageLabelsRequest
  * @return GetPackageLabelsResponse
  */
-func (api FBAInbound) GetPackageLabels() {
+func (api FBAInboundApi) GetPackageLabels() {
 }
 
 /**
@@ -130,7 +130,7 @@ func (api FBAInbound) GetPackageLabels() {
  * @see GetPalletLabelsRequest
  * @return GetPalletLabelsResponse
  */
-func (api FBAInbound) GetPalletLabels() {
+func (api FBAInboundApi) GetPalletLabels() {
 }
 
 /**
@@ -149,7 +149,7 @@ func (api FBAInbound) GetPalletLabels() {
  * @see GetPreorderInfoRequest
  * @return GetPreorderInfoResponse
  */
-func (api FBAInbound) GetPreorderInfo() {
+func (api FBAInboundApi) GetPreorderInfo() {
 }
 
 /**
@@ -164,7 +164,7 @@ func (api FBAInbound) GetPreorderInfo() {
  * @see GetPrepInstructionsForASINRequest
  * @return GetPrepInstructionsForASINResponse
  */
-func (api FBAInbound) GetPrepInstructionsForASIN() {
+func (api FBAInboundApi) GetPrepInstructionsForASIN() {
 }
 
 /**
@@ -179,7 +179,7 @@ func (api FBAInbound) GetPrepInstructionsForASIN() {
  * @see GetPrepInstructionsForSKURequest
  * @return GetPrepInstructionsForSKUResponse
  */
-func (api FBAInbound) GetPrepInstructionsForSKU() {
+func (api FBAInboundApi) GetPrepInstructionsForSKU() {
 }
 
 /**
@@ -193,7 +193,7 @@ func (api FBAInbound) GetPrepInstructionsForSKU() {
  * @see GetServiceStatusRequest
  * @return GetServiceStatusResponse
  */
-func (api FBAInbound) GetServiceStatus() {
+func (api FBAInboundApi) GetServiceStatus() {
 }
 
 /**
@@ -206,7 +206,7 @@ func (api FBAInbound) GetServiceStatus() {
  * @see GetTransportContentRequest
  * @return GetTransportContentResponse
  */
-func (api FBAInbound) GetTransportContent() {
+func (api FBAInboundApi) GetTransportContent() {
 }
 
 /**
@@ -233,7 +233,7 @@ func (api FBAInbound) GetTransportContent() {
  * @see GetUniquePackageLabelsRequest
  * @return GetUniquePackageLabelsResponse
  */
-func (api FBAInbound) GetUniquePackageLabels() {
+func (api FBAInboundApi) GetUniquePackageLabels() {
 }
 
 /**
@@ -254,7 +254,7 @@ func (api FBAInbound) GetUniquePackageLabels() {
  * @see ListInboundShipmentItemsRequest
  * @return ListInboundShipmentItemsResponse
  */
-func (api FBAInbound) ListInboundShipmentItems() {
+func (api FBAInboundApi) ListInboundShipmentItems() {
 }
 
 /**
@@ -268,7 +268,7 @@ func (api FBAInbound) ListInboundShipmentItems() {
  * @see ListInboundShipmentItemsByNextTokenRequest
  * @return ListInboundShipmentItemsByNextTokenResponse
  */
-func (api FBAInbound) ListInboundShipmentItemsByNextToken() {
+func (api FBAInboundApi) ListInboundShipmentItemsByNextToken() {
 }
 
 /**
@@ -287,7 +287,7 @@ func (api FBAInbound) ListInboundShipmentItemsByNextToken() {
  * @see ListInboundShipmentsRequest
  * @return ListInboundShipmentsResponse
  */
-func (api FBAInbound) ListInboundShipments() {
+func (api FBAInboundApi) ListInboundShipments() {
 }
 
 /**
@@ -300,7 +300,7 @@ func (api FBAInbound) ListInboundShipments() {
  * @see ListInboundShipmentsByNextTokenRequest
  * @return ListInboundShipmentsByNextTokenResponse
  */
-func (api FBAInbound) ListInboundShipmentsByNextToken() {
+func (api FBAInboundApi) ListInboundShipmentsByNextToken() {
 }
 
 /**
@@ -312,7 +312,7 @@ func (api FBAInbound) ListInboundShipmentsByNextToken() {
  * @see PutTransportContentRequest
  * @return PutTransportContentResponse
  */
-func (api FBAInbound) PutTransportContent() {
+func (api FBAInboundApi) PutTransportContent() {
 }
 
 /**
@@ -334,7 +334,7 @@ func (api FBAInbound) PutTransportContent() {
  * @see UpdateInboundShipmentRequest
  * @return UpdateInboundShipmentResponse
  */
-func (api FBAInbound) UpdateInboundShipment() {
+func (api FBAInboundApi) UpdateInboundShipment() {
 }
 
 /**
@@ -350,5 +350,5 @@ func (api FBAInbound) UpdateInboundShipment() {
  * @see VoidTransportInputRequest
  * @return VoidTransportRequestResponse
  */
-func (api FBAInbound) VoidTransportRequest() {
+func (api FBAInboundApi) VoidTransportRequest() {
 }

@@ -1,6 +1,6 @@
 package main
 
-type Finance struct {
+type FinanceApi struct {
 	Client
 }
 
@@ -12,7 +12,7 @@ type Finance struct {
  * @see ListFinancialEventGroupsRequest
  * @return ListFinancialEventGroupsResponse
  */
-func (api Finance) ListFinancialEventGroups() {
+func (api FinanceApi) ListFinancialEventGroups() {
 }
 
 /**
@@ -25,7 +25,7 @@ func (api Finance) ListFinancialEventGroups() {
  * @see ListFinancialEventGroupsByNextTokenRequest
  * @return ListFinancialEventGroupsByNextTokenResponse
  */
-func (api Finance) ListFinancialEventGroupsByNextToken() {
+func (api FinanceApi) ListFinancialEventGroupsByNextToken() {
 }
 
 /**
@@ -36,7 +36,7 @@ func (api Finance) ListFinancialEventGroupsByNextToken() {
  * @see ListFinancialEventsRequest
  * @return ListFinancialEventsResponse
  */
-func (api Finance) ListFinancialEvents() {
+func (api FinanceApi) ListFinancialEvents() {
 }
 
 /**
@@ -49,7 +49,7 @@ func (api Finance) ListFinancialEvents() {
  * @see ListFinancialEventsByNextTokenRequest
  * @return ListFinancialEventsByNextTokenResponse
  */
-func (api Finance) ListFinancialEventsByNextToken() {
+func (api FinanceApi) ListFinancialEventsByNextToken() {
 }
 
 /**
@@ -58,5 +58,5 @@ func (api Finance) ListFinancialEventsByNextToken() {
  * @see GetServiceStatusRequest
  * @return GetServiceStatusResponse
  */
-func (api Finance) GetServiceStatus() {
+func (api FinanceApi) GetServiceStatus() {
 }

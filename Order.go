@@ -1,6 +1,6 @@
 package main
 
-type Order struct {
+type OrderApi struct {
 	Client
 }
 
@@ -12,7 +12,7 @@ type Order struct {
  * @see GetOrderRequest
  * @return GetOrderResponse
  */
-func (api Order) GetOrder() {
+func (api OrderApi) GetOrder() {
 }
 
 /**
@@ -24,7 +24,7 @@ func (api Order) GetOrder() {
  * @see GetServiceStatusRequest
  * @return GetServiceStatusResponse
  */
-func (api Order) GetServiceStatus() {
+func (api OrderApi) GetServiceStatus() {
 }
 
 /**
@@ -36,7 +36,7 @@ func (api Order) GetServiceStatus() {
  * @see ListOrderItemsRequest
  * @return ListOrderItemsResponse
  */
-func (api Order) ListOrderItems() {
+func (api OrderApi) ListOrderItems() {
 }
 
 /**
@@ -49,7 +49,7 @@ func (api Order) ListOrderItems() {
  * @see ListOrderItemsByNextTokenRequest
  * @return ListOrderItemsByNextTokenResponse
  */
-func (api Order) ListOrderItemsByNextToken() {
+func (api OrderApi) ListOrderItemsByNextToken() {
 }
 
 /**
@@ -60,7 +60,7 @@ func (api Order) ListOrderItemsByNextToken() {
  * @see ListOrdersRequest
  * @return ListOrdersResponse
  */
-func (api Order) ListOrders() {
+func (api OrderApi) ListOrders() {
 }
 
 /**
@@ -73,5 +73,5 @@ func (api Order) ListOrders() {
  * @see ListOrdersByNextTokenRequest
  * @return ListOrdersByNextTokenResponse
  */
-func (api Order) ListOrdersByNextToken() {
+func (api OrderApi) ListOrdersByNextToken() {
 }
