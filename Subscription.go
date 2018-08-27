@@ -1,5 +1,9 @@
 package mws
 
+type Subscription struct {
+	Client
+}
+
 /**
  * Create Subscription
  * Create a new subscription.
@@ -10,7 +14,7 @@ package mws
  *
  * @throws SubscriptionsException
  */
-func CreateSubscription(request) {
+func (api Subscription) CreateSubscription() {
 }
 
 /**
@@ -23,7 +27,7 @@ func CreateSubscription(request) {
  *
  * @throws SubscriptionsException
  */
-func DeleteSubscription(request) {
+func (api Subscription) DeleteSubscription() {
 }
 
 /**
@@ -36,7 +40,7 @@ func DeleteSubscription(request) {
  *
  * @throws SubscriptionsException
  */
-func DeregisterDestination(request) {
+func (api Subscription) DeregisterDestination() {
 }
 
 /**
@@ -49,7 +53,7 @@ func DeregisterDestination(request) {
  *
  * @throws SubscriptionsException
  */
-func GetSubscription(request) {
+func (api Subscription) GetSubscription() {
 }
 
 /**
@@ -62,7 +66,7 @@ func GetSubscription(request) {
  *
  * @throws SubscriptionsException
  */
-func ListRegisteredDestinations(request) {
+func (api Subscription) ListRegisteredDestinations() {
 }
 
 /**
@@ -75,7 +79,7 @@ func ListRegisteredDestinations(request) {
  *
  * @throws SubscriptionsException
  */
-func ListSubscriptions(request) {
+func (api Subscription) ListSubscriptions() {
 }
 
 /**
@@ -88,7 +92,7 @@ func ListSubscriptions(request) {
  *
  * @throws SubscriptionsException
  */
-func RegisterDestination(request) {
+func (api Subscription) RegisterDestination() {
 }
 
 /**
@@ -101,7 +105,7 @@ func RegisterDestination(request) {
  *
  * @throws SubscriptionsException
  */
-func SendTestNotificationToDestination(request) {
+func (api Subscription) SendTestNotificationToDestination() {
 }
 
 /**
@@ -114,7 +118,7 @@ func SendTestNotificationToDestination(request) {
  *
  * @throws SubscriptionsException
  */
-func UpdateSubscription(request) {
+func (api Subscription) UpdateSubscription() {
 }
 
 /**
@@ -127,5 +131,5 @@ func UpdateSubscription(request) {
  *
  * @throws SubscriptionsException
  */
-func GetServiceStatus(request) {
+func (api Subscription) GetServiceStatus() {
 }

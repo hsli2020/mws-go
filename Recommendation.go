@@ -1,5 +1,9 @@
 package mws
 
+type Recommendation struct {
+	Client
+}
+
 /**
  * Get Last Updated Time For Recommendations
  * Retrieving last updated time for all recommendation categories for the given marketplace and seller.
@@ -11,7 +15,7 @@ package mws
  *
  * @throws RecommendationsException
  */
-func GetLastUpdatedTimeForRecommendations(request) {
+func (api Recommendation) GetLastUpdatedTimeForRecommendations() {
 }
 
 /**
@@ -24,7 +28,7 @@ func GetLastUpdatedTimeForRecommendations(request) {
  *
  * @throws RecommendationsException
  */
-func ListRecommendations(request) {
+func (api Recommendation) ListRecommendations() {
 }
 
 /**
@@ -37,7 +41,7 @@ func ListRecommendations(request) {
  *
  * @throws RecommendationsException
  */
-func ListRecommendationsByNextToken(request) {
+func (api Recommendation) ListRecommendationsByNextToken() {
 }
 
 /**
@@ -50,5 +54,5 @@ func ListRecommendationsByNextToken(request) {
  *
  * @throws RecommendationsException
  */
-func GetServiceStatus(request) {
+func (api Recommendation) GetServiceStatus() {
 }

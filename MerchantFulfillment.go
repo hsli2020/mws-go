@@ -1,5 +1,9 @@
 package mws
 
+type MerchantFulfillment {
+	Client
+}
+
 /**
  * Cancel Shipment
  * Cancels an existing shipment.  This will only succeed if the cancellation window has not passed and if the shipment
@@ -11,7 +15,7 @@ package mws
  *
  * @throws MerchantFulfillmentException
  */
-func CancelShipment(request) {
+func (api MerchantFulfillment) CancelShipment() {
 }
 
 /**
@@ -25,7 +29,7 @@ func CancelShipment(request) {
  *
  * @throws MerchantFulfillmentException
  */
-func CreateShipment(request) {
+func (api MerchantFulfillment) CreateShipment() {
 }
 
 /**
@@ -40,7 +44,7 @@ func CreateShipment(request) {
  *
  * @throws MerchantFulfillmentException
  */
-func GetEligibleShippingServices(request) {
+func (api MerchantFulfillment) GetEligibleShippingServices() {
 }
 
 /**
@@ -53,7 +57,7 @@ func GetEligibleShippingServices(request) {
  *
  * @throws MerchantFulfillmentException
  */
-func GetShipment(request) {
+func (api MerchantFulfillment) GetShipment() {
 }
 
 /**
@@ -66,5 +70,5 @@ func GetShipment(request) {
  *
  * @throws MerchantFulfillmentException
  */
-func GetServiceStatus(request) {
+func (api MerchantFulfillment) GetServiceStatus() {
 }

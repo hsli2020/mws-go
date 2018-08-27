@@ -1,5 +1,9 @@
 package mws
 
+type Order struct {
+	Client
+}
+
 /**
  * Get Order
  * This operation takes up to 50 order ids and returns the corresponding orders.
@@ -10,7 +14,7 @@ package mws
  *
  * @throws OrdersException
  */
-func GetOrder(request) {
+func (api Order) GetOrder() {
 }
 
 /**
@@ -24,7 +28,7 @@ func GetOrder(request) {
  *
  * @throws OrdersException
  */
-func GetServiceStatus(request) {
+func (api Order) GetServiceStatus() {
 }
 
 /**
@@ -38,7 +42,7 @@ func GetServiceStatus(request) {
  *
  * @throws OrdersException
  */
-func ListOrderItems(request) {
+func (api Order) ListOrderItems() {
 }
 
 /**
@@ -53,7 +57,7 @@ func ListOrderItems(request) {
  *
  * @throws OrdersException
  */
-func ListOrderItemsByNextToken(request) {
+func (api Order) ListOrderItemsByNextToken() {
 }
 
 /**
@@ -66,7 +70,7 @@ func ListOrderItemsByNextToken(request) {
  *
  * @throws OrdersException
  */
-func ListOrders(request) {
+func (api Order) ListOrders() {
 }
 
 /**
@@ -81,5 +85,5 @@ func ListOrders(request) {
  *
  * @throws OrdersException
  */
-func ListOrdersByNextToken(request) {
+func (api Order) ListOrdersByNextToken() {
 }

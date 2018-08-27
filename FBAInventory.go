@@ -1,5 +1,9 @@
 package mws
 
+type FBAInventory struct {
+	Client
+}
+
 /**
  * Get Service Status
  * Gets the status of the service.
@@ -13,7 +17,7 @@ package mws
  *
  * @throws FBAInventoryException
  */
-func GetServiceStatus(request) {
+func (api FBAInventory) GetServiceStatus() {
 }
 
 /**
@@ -55,7 +59,7 @@ func GetServiceStatus(request) {
  *
  * @throws FBAInventoryServiceMWS_Exception
  */
-func ListInventorySupply(request) {
+func (api FBAInventory) ListInventorySupply() {
 }
 
 /**
@@ -72,5 +76,5 @@ func ListInventorySupply(request) {
  *
  * @throws FBAInventoryServiceMWS_Exception
  */
-func ListInventorySupplyByNextToken(request) {
+func (api FBAInventory) ListInventorySupplyByNextToken() {
 }

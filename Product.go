@@ -1,5 +1,9 @@
 package mws
 
+type Product struct {
+	Client
+}
+
 /**
  * Get Competitive Pricing For ASIN
  * Gets competitive pricing and related information for a product identified by
@@ -11,7 +15,7 @@ package mws
  *
  * @throws ProductsException
  */
-func (c Client) GetCompetitivePricingForASIN(request) {
+func (api Product) GetCompetitivePricingForASIN() {
 }
 
 /**
@@ -25,7 +29,7 @@ func (c Client) GetCompetitivePricingForASIN(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetCompetitivePricingForSKU(request) {
+func (api Product) GetCompetitivePricingForSKU() {
 }
 
 /**
@@ -39,7 +43,7 @@ func (c Client) GetCompetitivePricingForSKU(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetLowestOfferListingsForASIN(request) {
+func (api Product) GetLowestOfferListingsForASIN() {
 }
 
 /**
@@ -53,7 +57,7 @@ func (c Client) GetLowestOfferListingsForASIN(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetLowestOfferListingsForSKU(request) {
+func (api Product) GetLowestOfferListingsForSKU() {
 }
 
 /**
@@ -67,7 +71,7 @@ func (c Client) GetLowestOfferListingsForSKU(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetLowestPricedOffersForASIN(request) {
+func (api Product) GetLowestPricedOffersForASIN() {
 }
 
 /**
@@ -81,7 +85,7 @@ func (c Client) GetLowestPricedOffersForASIN(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetLowestPricedOffersForSKU(request) {
+func (api Product) GetLowestPricedOffersForSKU() {
 }
 
 /**
@@ -95,7 +99,7 @@ func (c Client) GetLowestPricedOffersForSKU(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetMatchingProduct(request) {
+func (api Product) GetMatchingProduct() {
 }
 
 /**
@@ -109,7 +113,7 @@ func (c Client) GetMatchingProduct(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetMatchingProductForId(request) {
+func (api Product) GetMatchingProductForId() {
 }
 
 /**
@@ -124,7 +128,7 @@ func (c Client) GetMatchingProductForId(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetMyFeesEstimate(request) {
+func (api Product) GetMyFeesEstimate() {
 }
 
 /**
@@ -137,7 +141,7 @@ func (c Client) GetMyFeesEstimate(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetMyPriceForASIN(request) {
+func (api Product) GetMyPriceForASIN() {
 }
 
 /**
@@ -150,7 +154,7 @@ func (c Client) GetMyPriceForASIN(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetMyPriceForSKU(request) {
+func (api Product) GetMyPriceForSKU() {
 }
 
 /**
@@ -164,7 +168,7 @@ func (c Client) GetMyPriceForSKU(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetProductCategoriesForASIN(request) {
+func (api Product) GetProductCategoriesForASIN() {
 }
 
 /**
@@ -178,7 +182,7 @@ func (c Client) GetProductCategoriesForASIN(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetProductCategoriesForSKU(request) {
+func (api Product) GetProductCategoriesForSKU() {
 }
 
 /**
@@ -193,7 +197,7 @@ func (c Client) GetProductCategoriesForSKU(request) {
  *
  * @throws ProductsException
  */
-func (c Client) GetServiceStatus(request) {
+func (api Product) GetServiceStatus() {
 }
 
 /**
@@ -207,5 +211,5 @@ func (c Client) GetServiceStatus(request) {
  *
  * @throws ProductsException
  */
-func (c Client) ListMatchingProducts(request) {
+func (api Product) ListMatchingProducts() {
 }

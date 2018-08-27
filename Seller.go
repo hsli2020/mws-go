@@ -1,6 +1,10 @@
 package mws
 
-func GetServiceStatus(request) {
+type Seller struct {
+	Client
+}
+
+func (api Seller) GetServiceStatus() {
 }
 
 /**
@@ -14,7 +18,7 @@ func GetServiceStatus(request) {
  *
  * @throws SellersException
  */
-func ListMarketplaceParticipations(request) {
+func (api Seller) ListMarketplaceParticipations() {
 }
 
 /**
@@ -29,5 +33,5 @@ func ListMarketplaceParticipations(request) {
  *
  * @throws SellersException
  */
-func ListMarketplaceParticipationsByNextToken(request) {
+func (api Seller) ListMarketplaceParticipationsByNextToken() {
 }

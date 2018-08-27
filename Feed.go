@@ -1,5 +1,9 @@
 package mws
 
+type Feed struct {
+	Client
+}
+
 /**
  * Submit Feed
  * Uploads a file for processing together with the necessary
@@ -16,7 +20,7 @@ package mws
  *
  * @throws FeedsException
  */
-func SubmitFeed(request) {
+func (api Feed) SubmitFeed() {
 }
 
 /**
@@ -31,7 +35,7 @@ func SubmitFeed(request) {
  *
  * @throws FeedsException
  */
-func GetFeedSubmissionListByNextToken(request) {
+func (api Feed) GetFeedSubmissionListByNextToken() {
 }
 
 /**
@@ -47,7 +51,7 @@ func GetFeedSubmissionListByNextToken(request) {
  *
  * @throws FeedsException
  */
-func CancelFeedSubmissions(request) {
+func (api Feed) CancelFeedSubmissions() {
 }
 
 /**
@@ -62,7 +66,7 @@ func CancelFeedSubmissions(request) {
  *
  * @throws FeedsException
  */
-func GetFeedSubmissionCount(request) {
+func (api Feed) GetFeedSubmissionCount() {
 }
 
 /**
@@ -77,7 +81,7 @@ func GetFeedSubmissionCount(request) {
  *
  * @throws FeedsException
  */
-func GetFeedSubmissionResult(request) {
+func (api Feed) GetFeedSubmissionResult() {
 }
 
 /**
@@ -92,5 +96,5 @@ func GetFeedSubmissionResult(request) {
  *
  * @throws FeedsException
  */
-func GetFeedSubmissionList(request) {
+func (api Feed) GetFeedSubmissionList() {
 }

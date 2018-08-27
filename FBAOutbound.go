@@ -1,5 +1,9 @@
 package mws
 
+type FBAOutbound struct {
+	Client
+}
+
 /**
  * Cancel Fulfillment Order
  * Request for Amazon to no longer attempt to fulfill an existing
@@ -13,7 +17,7 @@ package mws
  *
  * @throws FBAOutboundException
  */
-func CancelFulfillmentOrder(request) {
+func (api FBAOutbound) CancelFulfillmentOrder() {
 }
 
 /**
@@ -75,7 +79,7 @@ func CancelFulfillmentOrder(request) {
  *
  * @throws FBAOutboundException
  */
-func CreateFulfillmentOrder(request) {
+func (api FBAOutbound) CreateFulfillmentOrder() {
 }
 
 /**
@@ -91,7 +95,7 @@ func CreateFulfillmentOrder(request) {
  *
  * @throws FBAOutboundException
  */
-func GetFulfillmentOrder(request) {
+func (api FBAOutbound) GetFulfillmentOrder() {
 }
 
 /**
@@ -113,7 +117,7 @@ func GetFulfillmentOrder(request) {
  *
  * @throws FBAOutboundException
  */
-func GetFulfillmentPreview(request) {
+func (api FBAOutbound) GetFulfillmentPreview() {
 }
 
 /**
@@ -126,7 +130,7 @@ func GetFulfillmentPreview(request) {
  *
  * @throws FBAOutboundException
  */
-func GetPackageTrackingDetails(request) {
+func (api FBAOutbound) GetPackageTrackingDetails() {
 }
 
 /**
@@ -142,7 +146,7 @@ func GetPackageTrackingDetails(request) {
  *
  * @throws FBAOutboundException
  */
-func GetServiceStatus(request) {
+func (api FBAOutbound) GetServiceStatus() {
 }
 
 /**
@@ -165,7 +169,7 @@ func GetServiceStatus(request) {
  *
  * @throws FBAOutboundException
  */
-func ListAllFulfillmentOrders(request) {
+func (api FBAOutbound) ListAllFulfillmentOrders() {
 }
 
 /**
@@ -182,7 +186,7 @@ func ListAllFulfillmentOrders(request) {
  *
  * @throws FBAOutboundException
  */
-func ListAllFulfillmentOrdersByNextToken(request) {
+func (api FBAOutbound) ListAllFulfillmentOrdersByNextToken() {
 }
 
 /**
@@ -238,5 +242,5 @@ func ListAllFulfillmentOrdersByNextToken(request) {
  *
  * @throws FBAOutboundException
  */
-func UpdateFulfillmentOrder(request) {
+func (api FBAOutbound) UpdateFulfillmentOrder() {
 }

@@ -1,5 +1,9 @@
 package mws
 
+type Report struct {
+	Client
+}
+
 /**
  * Get Report
  * The GetReport operation returns the contents of a report. Reports can potentially be
@@ -14,7 +18,7 @@ package mws
  *
  * @throws ReportsException
  */
-func GetReport(request) {
+func (api Report) GetReport() {
 }
 
 /**
@@ -29,7 +33,7 @@ func GetReport(request) {
  *
  * @throws ReportsException
  */
-func GetReportScheduleCount(request) {
+func (api Report) GetReportScheduleCount() {
 }
 
 /**
@@ -44,7 +48,7 @@ func GetReportScheduleCount(request) {
  *
  * @throws ReportsException
  */
-func GetReportRequestListByNextToken(request) {
+func (api Report) GetReportRequestListByNextToken() {
 }
 
 /**
@@ -59,7 +63,7 @@ func GetReportRequestListByNextToken(request) {
  *
  * @throws ReportsException
  */
-func UpdateReportAcknowledgements(request) {
+func (api Report) UpdateReportAcknowledgements() {
 }
 
 /**
@@ -76,7 +80,7 @@ func UpdateReportAcknowledgements(request) {
  *
  * @throws ReportsException
  */
-func GetReportCount(request) {
+func (api Report) GetReportCount() {
 }
 
 /**
@@ -91,7 +95,7 @@ func GetReportCount(request) {
  *
  * @throws ReportsException
  */
-func RequestReport(request) {
+func (api Report) RequestReport() {
 }
 
 /**
@@ -107,7 +111,7 @@ func RequestReport(request) {
  *
  * @throws ReportsException
  */
-func CancelReportRequests(request) {
+func (api Report) CancelReportRequests() {
 }
 
 /**
@@ -123,7 +127,7 @@ func CancelReportRequests(request) {
  *
  * @throws ReportsException
  */
-func GetReportList(request) {
+func (api Report) GetReportList() {
 }
 
 /**
@@ -138,7 +142,7 @@ func GetReportList(request) {
  *
  * @throws ReportsException
  */
-func GetReportRequestList(request) {
+func (api Report) GetReportRequestList() {
 }
 
 /**
@@ -153,7 +157,7 @@ func GetReportRequestList(request) {
  *
  * @throws ReportsException
  */
-func GetReportScheduleListByNextToken(request) {
+func (api Report) GetReportScheduleListByNextToken() {
 }
 
 /**
@@ -168,7 +172,7 @@ func GetReportScheduleListByNextToken(request) {
  *
  * @throws ReportsException
  */
-func GetReportListByNextToken(request) {
+func (api Report) GetReportListByNextToken() {
 }
 
 /**
@@ -184,7 +188,7 @@ func GetReportListByNextToken(request) {
  *
  * @throws ReportsException
  */
-func ManageReportSchedule(request) {
+func (api Report) ManageReportSchedule() {
 }
 
 /**
@@ -200,7 +204,7 @@ func ManageReportSchedule(request) {
  *
  * @throws ReportsException
  */
-func GetReportRequestCount(request) {
+func (api Report) GetReportRequestCount() {
 }
 
 /**
@@ -215,5 +219,5 @@ func GetReportRequestCount(request) {
  *
  * @throws ReportsException
  */
-func GetReportScheduleList(request) {
+func (api Report) GetReportScheduleList() {
 }

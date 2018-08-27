@@ -1,5 +1,9 @@
 package mws
 
+type Finance struct {
+	Client
+}
+
 /**
  * List Financial Event Groups
  * ListFinancialEventGroups can be used to find financial event groups that meet filter criteria.
@@ -10,7 +14,7 @@ package mws
  *
  * @throws FinancesException
  */
-func ListFinancialEventGroups(request) {
+func (api Finance) ListFinancialEventGroups() {
 }
 
 /**
@@ -25,7 +29,7 @@ func ListFinancialEventGroups(request) {
  *
  * @throws FinancesException
  */
-func ListFinancialEventGroupsByNextToken(request) {
+func (api Finance) ListFinancialEventGroupsByNextToken() {
 }
 
 /**
@@ -38,7 +42,7 @@ func ListFinancialEventGroupsByNextToken(request) {
  *
  * @throws FinancesException
  */
-func ListFinancialEvents(request) {
+func (api Finance) ListFinancialEvents() {
 }
 
 /**
@@ -53,7 +57,7 @@ func ListFinancialEvents(request) {
  *
  * @throws FinancesException
  */
-func ListFinancialEventsByNextToken(request) {
+func (api Finance) ListFinancialEventsByNextToken() {
 }
 
 /**
@@ -66,5 +70,5 @@ func ListFinancialEventsByNextToken(request) {
  *
  * @throws FinancesException
  */
-func GetServiceStatus(request) {
+func (api Finance) GetServiceStatus() {
 }
