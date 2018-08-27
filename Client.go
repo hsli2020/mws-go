@@ -1,10 +1,15 @@
 package mws
 
 type Account struct {
+    SellerId      string
+    AccessKey     string
+    SecretKey     string
+    MarketplaceId string
+    AuthToken     string
 }
 
 type Client struct {
-	Acount Acount
+	Account
 }
 
 type Request map[string]interface{}
